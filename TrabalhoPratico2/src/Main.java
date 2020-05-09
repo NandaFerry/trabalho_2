@@ -74,6 +74,8 @@ public class Main {
                     break;
                 case 0:
                     System.out.println("\n\nOperações A: " + A.getOperacoes());
+                    System.out.println("\n\nOperações B: " + B.getOperacoes());
+                    System.out.println("\n\nOperações C: " + C.getOperacoes());
                     System.exit(0);
             }
         } while(op != 0);
